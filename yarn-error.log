@@ -1,0 +1,39 @@
+Arguments: 
+  /home/immotum/.nvm/versions/node/v11.9.0/bin/node /usr/share/yarn/bin/yarn.js add youtube-captions-scraper
+
+PATH: 
+  /home/immotum/.nvm/versions/node/v11.9.0/bin:/home/immotum/.composer/vendor/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/home/immotum/.config/composer/vendor/bin
+
+Yarn version: 
+  1.13.0
+
+Node version: 
+  11.9.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: EACCES: permission denied, unlink '/var/www/play.dalot.xyz/node_modules/debug/.coveralls.yml'
+
+npm manifest: 
+  {
+    "name": "play.dalot.xyz",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+      "youtube-captions-scraper": "^1.0.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
